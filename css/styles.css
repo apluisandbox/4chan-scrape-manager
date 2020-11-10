@@ -1,27 +1,35 @@
 body {
-background-color: #ffcfae;
-  }
+  background-color: #ffcfae;
+}
 
 h1 {
-
   color: #6d0000;
 }
 
 p {
-
   t
 }
-.vertical-align {
 
+.vertical-align {
   padding-top: 10%;
 }
 
 #logo {
-
+  padding-left: 50%;
   max-width: 80%;
   max-height: 80%;
 }
 
 .btn-left {
-  margin-left: -15%;
+  margin-left: 5%;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+  padding: 7.5px;
+  border: none;
+  background-color: #1f5e19 !important;
+}
+
+.btn-primary:hover {
+  background-color: #A82B1B !important;
 }
