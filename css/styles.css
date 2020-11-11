@@ -21,15 +21,15 @@ p {
 }
 
 .btn-left {
-  margin-left: 5%;
+
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:visited {
-  padding: 7.5px;
-  border: none;
   background-color: #1f5e19 !important;
+  border-color: #1f5e19 !important;
 }
 
 .btn-primary:hover {
   background-color: #A82B1B !important;
+  border-color: #A82B1B !important;
 }
