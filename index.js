@@ -14,8 +14,22 @@ res.render("home")
 })
 
 
+app.post("/", function(req, res) {
+  const thread = {
+    "inputThread": req.body.input,
+  }
+
+console.log(thread);
+  res.render("home", thread
+  )
+
+});
+
 
 
 app.listen(3000, function(req, res) {
   console.log("Server started on port 3000.");
 })
+
+
+// to do: add regEx to thread
