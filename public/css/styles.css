@@ -20,8 +20,8 @@ p {
   max-height: 80%;
 }
 
-.btn-left {
-
+.btn-spacing {
+margin-top: 20px;
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:visited {
@@ -32,4 +32,10 @@ p {
 .btn-primary:hover {
   background-color: #A82B1B !important;
   border-color: #A82B1B !important;
+}
+
+.inputdiv {
+  margin: 0 auto;
+  width:50%
+
 }
