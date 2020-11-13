@@ -1,0 +1,1 @@
+A simple tool to scrape images and clips from 4chan threads. The initial goal of this project was to use the 4chan npm, which can be used globally, but instead to use it inside a user-friendly GUI instead of having to use the console.
